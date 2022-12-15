@@ -5,6 +5,8 @@ SQL yedek alır ve mail gönderir.
 Birden fazla database yedek alabilir. Program açık kaldığı sürece günlük olarak yedek alıp 7zip ile sıkıştırdıktan sonra json içerisinde ki emaile dosya olarak gönderir.
 Şuan için saat aktif değildir.
 
+
+```javascript
 {
   "Configuration": {
     "backupFolder": "C:\\backup\\",
@@ -32,3 +34,5 @@ Birden fazla database yedek alabilir. Program açık kaldığı sürece günlük
     ]
   }
 }
+
+```
